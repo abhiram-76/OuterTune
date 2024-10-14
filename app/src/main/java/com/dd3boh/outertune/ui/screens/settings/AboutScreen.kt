@@ -115,7 +115,7 @@ fun AboutScreen(
         Spacer(Modifier.height(4.dp))
 
         Text(
-            text = "By Davide Garberi & Michael Zh.",
+            text = "By abhiram-76",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.secondary
         )
@@ -124,7 +124,7 @@ fun AboutScreen(
 
         Row {
             IconButton(
-                onClick = { uriHandler.openUri("https://github.com/DD3Boh/OuterTune") }
+                onClick = { uriHandler.openUri("https://github.com/abhiram-76/flowtune") }
             ) {
                 Icon(
                     painter = painterResource(R.drawable.github),
@@ -134,7 +134,7 @@ fun AboutScreen(
         }
 
         Spacer(Modifier.height(8.dp))
-
+/*
         Row(
             verticalAlignment = Alignment.Top,
         ) {
@@ -153,6 +153,7 @@ fun AboutScreen(
         )
 
     }
+    */
 
     TopAppBar(
         title = { Text(stringResource(R.string.about)) },
