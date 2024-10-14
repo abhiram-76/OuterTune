@@ -134,12 +134,12 @@ fun AboutScreen(
         }
 
         Spacer(Modifier.height(8.dp))
-/*
+
         Row(
             verticalAlignment = Alignment.Top,
         ) {
             Text(
-                text = "Special Thanks",
+                text = "",
                 style = MaterialTheme.typography.titleLarge,
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
@@ -147,14 +147,13 @@ fun AboutScreen(
         }
 
         Text(
-            text = "Zion Huang for InnerTune",
+            text = "",
             style = MaterialTheme.typography.titleMedium,
             color = MaterialTheme.colorScheme.secondary
         )
 
     }
-    */
-
+    
     TopAppBar(
         title = { Text(stringResource(R.string.about)) },
         navigationIcon = {
