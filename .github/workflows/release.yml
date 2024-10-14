@@ -26,7 +26,6 @@ jobs:
           cache: 'gradle'
 
       - name: Build Apk
-        run: ./gradlew assembleDebug
         run: ./gradlew assembleRelease
 
       - name: Upload APK
